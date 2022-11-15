@@ -1,5 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-# resources:
+resources:
+  - infrastructure/test2/observability/kube-prometheus-stack.yaml
+  - infrastructure/test2/observability/prometheus-community-source.yaml
 # - gotk-components.yaml
 # - gotk-sync.yaml
