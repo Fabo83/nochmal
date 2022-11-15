@@ -4,3 +4,7 @@ resources:
   - namespace.yaml
   - kube-prometheus-stack.yaml
   - prometheus-community-source.yaml
+  - grafana-charts-source.yaml
+  - loki-release.yaml
+  - promtail-release.yaml
+  - tempo-release.yaml
